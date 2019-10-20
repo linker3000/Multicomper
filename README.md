@@ -1,6 +1,6 @@
 # Multicomper
 
-A motherboard for the EP2C5T144C8N Cyclone II dev board and 'Multicomp'-based FPGA computers.
+A motherboard for the EP2C5T144C8N Cyclone II dev board and 'Multicomp'-based FPGA computers with Z80, 6502 and 6809 soft cores.
 
 The Multicomper motherboard is a simple platform for creating a UK101 functional or 'Multicomp' computer based on the design work of Grant Searle: 
 
