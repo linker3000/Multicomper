@@ -64,7 +64,7 @@ Multicomp-09 (05Nov2016): https://www.retrobrewcomputers.org/doku.php?id=boards:
 
 ![Image](zp-mcomper2.png)
 
-Running Multicomp-09
+Running Multicomp-09: CP/M and reading from the microSD card.
 
 
 
