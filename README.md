@@ -21,6 +21,9 @@ The Multicomper has the following features:
 * A ‘key’ (reset) button in parallel with the one on the FPGA board.
 * An optional regulated 5V power circuit in case you need it.
 * A micro-SD card slot – See notes below.
+* Two serial port headers (NB: 3.3V logic like all the I/O).
+* VGA and PS/2 keyboard port.
+* Composite video header
 
 Notes:
 
