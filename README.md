@@ -33,13 +33,15 @@ You should purchase a version of the board that does NOT have the header pins al
 
 ![Image](zp-mcomper1.png)
 
-**5V power circuit**
+**5V* power circuit**
 
 If you want to fit the optional 5V power circuit you need to solder a 2-pin male header to the FPGA dev board – the board has holes for this, but a 2-pin header is not usually supplied as standard.
 
 The Cyclone II is a 3.3V device and the I/O is NOT 5V tolerant, so you will need to ‘level shift’ or clamp voltages if you are hooking up to stuff such as LSTTL/74HCT logic.
 
 The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board’s power socket. There’s a 3.3V regulator on the dev board board for the FPGA and the supply on the DC socket needs to be increased to at least 7V if a standard (non low drop-out) ‘7805’ is used on the Multicomper. During testing, the DC input was raised from the 5V default to 12V to confirm that the 3.3V regulator was happy, however YMMV might vary according to the quality of the part fitted.
+
+ *You could fit a 3.3V regulator for the prototype aread if you wish.
 
 **Micro SD card**
 
