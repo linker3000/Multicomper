@@ -8,7 +8,7 @@ http://zx80.netai.net/grant/uk101FPGA/index.html
 
 http://zx80.netai.net/grant/Multicomp/index.html
 
-![Image](zp-mcomper1.png)
+![Image](zp-mcomper0.png)
 
 The main additional part needed is a low-cost Cyclone II development board from your favourite auction site or other supplier - search for *EP2C5T144C8N mini board*, but do **read the notes below BEFORE ordering**.
 
@@ -26,6 +26,7 @@ Notes:
 
 You should purchase a version of the board that does NOT have the header pins already fitted because for the Multicomper these need to be soldered on the bottom side of the board as below:
 
+![Image](zp-mcomper1.png)
 
 **5V power circuit**
 
