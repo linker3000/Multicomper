@@ -22,7 +22,8 @@ Notes:
 
 **FPGA development board – IMPORTANT**
 
-You should purchase a version of the board that does NOT have the header pins already fitted because for the Multicomper these need to be soldered on the bottom side of the board – see pictures herexxxxxxxxxxxxxxxxxx
+You should purchase a version of the board that does NOT have the header pins already fitted because for the Multicomper these need to be soldered on the bottom side of the board as below:
+
 
 **5V power circuit**
 
