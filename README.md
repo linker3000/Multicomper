@@ -8,6 +8,8 @@ http://zx80.netai.net/grant/uk101FPGA/index.html
 
 http://zx80.netai.net/grant/Multicomp/index.html
 
+![Image](zp-mcomper1.png)
+
 The main additional part needed is a low-cost Cyclone II development board from your favourite auction site or other supplier - search for *EP2C5T144C8N mini board*, but do **read the notes below BEFORE ordering**.
 
 The Multicomper has the following features:
