@@ -62,7 +62,7 @@ MC-2G-1024: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolst
 
 Multicomp-09 (05Nov2016): https://www.retrobrewcomputers.org/doku.php?id=boards:sbc:multicomp:cycloneii-c:start
 
-![Image](zp-mcomper1.png)
+![Image](zp-mcomper2.png)
 
 Running Multicomp-09
 
