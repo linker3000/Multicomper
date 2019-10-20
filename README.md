@@ -10,6 +10,8 @@ http://zx80.netai.net/grant/Multicomp/index.html
 
 ![Image](zp-mcomper0.png)
 
+Full schematics and PCB files here: https://easyeda.com/linker3000/multicomp-cyclone-ii
+
 The main additional part needed is a low-cost Cyclone II development board from your favourite auction site or other supplier - search for *EP2C5T144C8N mini board*, but do **read the notes below BEFORE ordering**.
 
 The Multicomper has the following features:
