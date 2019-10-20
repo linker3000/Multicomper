@@ -37,6 +37,8 @@ You should purchase a version of the board that does NOT have the header pins al
 
 If you want to fit the optional 5V power circuit you need to solder a 2-pin male header to the FPGA dev board – the board has holes for this, but a 2-pin header is not usually supplied as standard.
 
+The 100uF 10V smoothing capacitor C8 should be bent over and fitted flush with the PCB otherwise it will hit the bottom of the dev board above it.
+
 The Cyclone II is a 3.3V device and the I/O is NOT 5V tolerant, so you will need to ‘level shift’ or clamp voltages if you are hooking up to stuff such as LSTTL/74HCT logic.
 
 The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board’s power socket. There’s a 3.3V regulator on the dev board board for the FPGA and the supply on the DC socket needs to be increased to at least 7V if a standard (non low drop-out) ‘7805’ is used on the Multicomper. During testing, the DC input was raised from the 5V default to 12V to confirm that the 3.3V regulator was happy, however YMMV might vary according to the quality of the part fitted.
@@ -45,7 +47,7 @@ The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board�
 
 **Micro SD card**
 
-Grant’s VHDL code does not support SDHC micro-SD cards, so if you want to use one for your Multicomper build (i.e.: You want to run more than the basic UK101 configuration), you should replace the sd_controller.vhd file in the sub-folder Components/SDCARD with the one from the following project: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolstar:mc-2g-1024. To do this, download and unzip the ZIP file on the above page, then locate and copy the file mentioned.
+Grant’s VHDL code does not support SDHC micro-SD cards, so if you want to use one for your Multicomper build (i.e.: You want to run more than the basic UK101 configuration), you should replace the *sd_controller.vhd* file in the Multicomp project's sub-folder *Components/SDCARD* with the one from the following project: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolstar:mc-2g-1024. To do this, download and unzip the ZIP file on the above page, then locate and copy the file mentioned.
 
 **Designs**
 
