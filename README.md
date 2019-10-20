@@ -24,6 +24,7 @@ The Multicomper has the following features:
 * Two serial port headers (NB: 3.3V logic like all the I/O).
 * VGA and PS/2 keyboard port.
 * Composite video header.
+* Second SPI port with separate CS header pin (link it to the FPGA pin of your choice).
 
 Notes:
 
