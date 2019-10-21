@@ -30,9 +30,13 @@ Notes:
 
 **FPGA development board – IMPORTANT**
 
-You should purchase a version of the board that does NOT have the header pins already fitted because for the Multicomper these need to be soldered on the bottom side of the board as below:
+You should purchase a version of the board that does NOT have the header pins already fitted because for the Multicomper these need to be soldered to the bottom side of the board as below:
 
 ![Image](zp-mcomper1.png)
+
+On the dev board, FPGA pins 26 and 81 are directly connected to 1.2V by 0 ohm resistors (which you can remove if you want to use these pins for your own purposes). The default device setup in the Quartus software is to link all unused pins to GND - which means these pins could be shorted to ground and this makes the FPGA and the 1.2V regulator get very hot! Once you have loaded a project for the board, go to Assignments...Device...Device and Pin Options...Unused Pins and set this to "As input tri-stated with weak pull-up".
+
+Also make sure that the internal pullup resistor is enabled on the reset ('key') tact switch pin: In the Quartus software, with a design project open, go to 'Assignments...Pin Planner', right click in any field and select 'Customize Columns'. Add 'Weak Pull-Up Resistor' to the columns to show and click 'OK'. Next make sure that the Weak Pull-Up Resistor is enabled for 'n_reset', which is pin 144.
 
 **5V* power circuit**
 
