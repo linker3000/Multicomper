@@ -1,5 +1,7 @@
 # Multicomper
 
+**This is a hobby project and comes with no official support. The PCB schematic and board design files are offered 'as is' with no claims made about their fitness for any specific purpose.**  
+
 A motherboard for the EP2C5T144C8N Cyclone II dev board and 'Multicomp'-based FPGA computers with Z80, 6502 and 6809 soft cores.
 
 The Multicomper motherboard is a simple platform for creating a UK101 functional or 'Multicomp' computer based on the design work of Grant Searle: 
@@ -53,6 +55,10 @@ The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board�
 **Micro SD card**
 
 Grant’s VHDL code does not support SDHC micro-SD cards, so if you want to use one for your Multicomper build (i.e.: You want to run more than the basic UK101 configuration), you should replace the *sd_controller.vhd* file in the Multicomp project's sub-folder *Components/SDCARD* with the one from the following project: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolstar:mc-2g-1024. To do this, download and unzip the ZIP file on the above page, then locate and copy the file mentioned.
+
+**Keyboard**
+
+As per the original Multicomp designs by Grant, the keyboard is powered from the FPGA's 3.3V supply rather than the normal PC standard of 5V. This works fine with many - but not all - keyboards, including USB ones with a PS/2 adapter.
 
 **Designs**
 
