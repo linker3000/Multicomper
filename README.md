@@ -40,6 +40,8 @@ On the dev board, FPGA pins 26 and 81 are directly connected to 1.2V by 0 ohm re
 
 Also make sure that the internal pullup resistor is enabled on the reset ('key') tact switch pin: In the Quartus software, with a design project open, go to 'Assignments...Pin Planner', right click in any field and select 'Customize Columns'. Add 'Weak Pull-Up Resistor' to the columns to show and click 'OK'. Next make sure that the Weak Pull-Up Resistor is enabled for 'n_reset', which is pin 144.
 
+You will need a programming tool to setup the development board. Many suppliers will also sell you a cheap 'USB Blaster' compatible device and cable for this purpose. There's plenty of advice 'out there' for using a USB Blaster; the main thing to remember is that you can program the board in JTAG mode where the programming is lost when the board is powered down (ideal for testing), or AS mode where the programming persists until changed or erased. The programming mode determines which of the dev board connectors you use with the USB Blaster - check the board markings for which is which. 
+
 **5V* power circuit**
 
 If you want to fit the optional 5V power circuit you need to solder a 2-pin male header to the FPGA dev board – the board has holes for this, but a 2-pin header is not usually supplied as standard.
