@@ -64,7 +64,9 @@ Grant’s VHDL code does not support SDHC micro-SD cards, so if you want to use 
 
 **Keyboard**
 
-As per the original Multicomp designs by Grant, the keyboard is powered from the FPGA's 3.3V supply rather than the normal PC standard of 5V. This works fine with many (but not all!) keyboards, including USB ones with a PS/2 adapter.
+As per the original Multicomp designs by Grant, the keyboard is powered from the dev board's 3.3V supply rather than the normal PC standard of 5V. This works fine with many (but not all!) keyboards, including USB ones with a PS/2 adapter.
+
+If you feel the need to modify the Multicomper to run the keyboard from the optional 5V supply rail, you will need to clamp the clk and data lines to 3.3V with a pair of reverse-biased zener diodes because the circuitry inside a standard keyboard has pullups to the power rail - which you're now running at 5V and the FPGA's I/O circuits are not 5V tolerant.
 
 **Designs**
 
