@@ -40,7 +40,11 @@ On the dev board, FPGA pins 26 and 81 are directly connected to 1.2V by 0 ohm re
 
 Also make sure that the internal pullup resistor is enabled on the reset ('key') tact switch pin: In the Quartus software, with a design project open, go to 'Assignments...Pin Planner', right click in any field and select 'Customize Columns'. Add 'Weak Pull-Up Resistor' to the columns to show and click 'OK'. Next make sure that the Weak Pull-Up Resistor is enabled for 'n_reset', which is pin 144.
 
-You will need a programming tool to setup the development board. Many suppliers will also sell you a cheap 'USB Blaster' compatible device and cable for this purpose. There's plenty of advice 'out there' for using a USB Blaster; the main thing to remember is that you can program the board in JTAG mode where the programming is lost when the board is powered down (ideal for testing), or AS mode where the programming persists until changed or erased. The programming mode determines which of the dev board connectors you use with the USB Blaster - check the board markings for which is which. 
+You will need a programming tool for the development board. Many suppliers will also sell you a cheap 'USB Blaster' compatible device and cable for this purpose. There's plenty of advice 'out there' for using a USB Blaster; the main thing to remember is that you can program the board in JTAG mode where the programming is lost when the board is powered down (ideal for testing), or AS mode where the programming persists until changed or erased. The programming mode determines which of the dev board connectors you use with the USB Blaster - check the board markings for which is which. 
+
+**Quartus development environment**
+
+To view/modify the code and to program the dev board, you'll need to install the Quartus package from Intel; it's a big download, but at least it's free! The last version to support the Cyclone II FPGA fitted to this dev board is *Altera Quartus II 13 sp1* - go seek out the Quartus Web Edition which, at the time of writing is here: http://fpgasoftware.intel.com/13.0sp1/?edition=web
 
 **5V* power circuit**
 
@@ -50,7 +54,7 @@ The 100uF 10V smoothing capacitor C8 should be bent over and fitted flush with t
 
 The Cyclone II is a 3.3V device and the I/O is NOT 5V tolerant, so you will need to ‘level shift’ or clamp voltages if you are hooking up to stuff such as LSTTL/74HCT logic.
 
-The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board’s power socket. There’s a 3.3V regulator on the dev board board for the FPGA and the supply on the DC socket needs to be increased to at least 7V if a standard (non low drop-out) ‘7805’ is used on the Multicomper. During testing, the DC input was raised from the 5V default to 12V to confirm that the 3.3V regulator was happy, however YMMV might vary according to the quality of the part fitted.
+The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board’s power socket. There’s a 3.3V regulator on the dev board board for the FPGA and the supply on the DC socket needs to be increased to at least 7V if a standard (non low drop-out) ‘7805’ is used on the Multicomper. During testing, the DC input was raised from the 5V default to 12V to confirm that the 3.3V regulator was happy, however your mileage may vary according to the quality of the part fitted.
 
  *You could use a 3.3V regulator for the prototype area if you wish.
 
@@ -60,7 +64,7 @@ Grant’s VHDL code does not support SDHC micro-SD cards, so if you want to use 
 
 **Keyboard**
 
-As per the original Multicomp designs by Grant, the keyboard is powered from the FPGA's 3.3V supply rather than the normal PC standard of 5V. This works fine with many - but not all - keyboards, including USB ones with a PS/2 adapter.
+As per the original Multicomp designs by Grant, the keyboard is powered from the FPGA's 3.3V supply rather than the normal PC standard of 5V. This works fine with many (but not all!) keyboards, including USB ones with a PS/2 adapter.
 
 **Designs**
 
