@@ -32,7 +32,7 @@ Notes:
 
 **FPGA development board – IMPORTANT**
 
-You should purchase a version of the board that does NOT have the header pins already fitted because they need to on the underside of the board as shown below:
+You should purchase a version of the board that does NOT have the header pins already fitted because they need to be on the underside of the board as shown below:
 
 ![Image](zp-mcomper1.png)
 
