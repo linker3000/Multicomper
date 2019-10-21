@@ -60,7 +60,7 @@ The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board�
 
 **Micro SD card**
 
-Grant’s VHDL code does not support SDHC micro-SD cards, so if you want to use one for your Multicomper build (i.e.: You want to run more than the basic UK101 configuration), you should replace the *sd_controller.vhd* file in the Multicomp project's sub-folder *Components/SDCARD* with the one from the following project: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolstar:mc-2g-1024. To do this, download and unzip the ZIP file on the above page, then locate and copy the file mentioned.
+Grant’s VHDL code does not support SDHC micro-SD cards, so if you want to use one for your Multicomper build (i.e.: You want to run more than the basic UK101 configuration), replace the *sd_controller.vhd* file in the Multicomp project's sub-folder *Components/SDCARD* with the one from the following project: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolstar:mc-2g-1024. To do this, download and unzip the ZIP file on the above page, then locate and copy the file mentioned.
 
 The easiest way to solder the micro SD card socket to the board is to use a fine (chisel) soldering iron tip - I use an 0.5mm bit (Antex 55). Position the socket so that the connections and shield ground tabs are correctly aligned with the board pads, then use the soldering iron to tack down one of the tabs at the edge of the board. Check the alignment of everything again and melt the solder & reposition the socket as necessary. Once everything lines up, solder the electrical connections and then the remaining shield tabs. Once done, check the connections for solder bridges, loose solder splashes and dry joints.
 
