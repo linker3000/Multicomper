@@ -32,7 +32,7 @@ Notes:
 
 **FPGA development board – IMPORTANT**
 
-You should purchase a version of the board that does NOT have the header pins already fitted because they need to be on the underside of the board as shown below:
+Stand by with the soldering iron! You should purchase a version of the board that does NOT have the header pins already in place because they need to be fitted on the underside of the board as shown below:
 
 ![Image](zp-mcomper1.png)
 
