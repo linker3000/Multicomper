@@ -46,7 +46,7 @@ You will need a programming tool for the development board. Many suppliers will 
 
 To view/modify the code and to program the dev board, you'll need to install the Quartus package from Intel; it's a big download, but at least it's free! The last version to support the Cyclone II FPGA fitted to this dev board is *Altera Quartus II 13 sp1* - go seek out the Quartus Web Edition which, at the time of writing is here: http://fpgasoftware.intel.com/13.0sp1/?edition=web
 
-**5V* power circuit**
+**5V power circuit**
 
 If you want to fit the optional 5V power circuit you need to solder a 2-pin male header to the FPGA dev board – the board has holes for this, but a 2-pin header is not usually supplied as standard.
 
@@ -56,7 +56,7 @@ The Cyclone II is a 3.3V device and the I/O is NOT 5V tolerant, so you will need
 
 The Multicomper’s 5V regulator is fed via the 2-pin header from the dev board’s power socket. There’s a 3.3V regulator on the dev board board for the FPGA and the supply on the DC socket needs to be increased to at least 7V if a standard (non low drop-out) ‘7805’ is used on the Multicomper. During testing, the DC input was raised from the 5V default to 12V to confirm that the 3.3V regulator was happy, however your mileage may vary according to the quality of the part fitted.
 
- *You could use a 3.3V regulator for the prototype area if you wish.
+ *You could use a 3.3V regulator for the prototype area if you wish.*
 
 **Micro SD card**
 
