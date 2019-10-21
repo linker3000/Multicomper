@@ -32,7 +32,7 @@ Notes:
 
 **FPGA development board – IMPORTANT**
 
-You should purchase a version of the board that does NOT have the header pins already fitted because for the Multicomper these need to be soldered to the bottom side of the board as below:
+You should purchase a version of the board that does NOT have the header pins already fitted because they need to on the underside of the board as shown below:
 
 ![Image](zp-mcomper1.png)
 
