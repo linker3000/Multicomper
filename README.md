@@ -78,6 +78,9 @@ Grant’s original UK101 design: http://zx80.netai.net/grant/uk101FPGA/index.htm
 
 With the external RAM fitted:
 
+Grant's 6502 Multicomp design with full external RAM, default VGA display and PS/2 keyboard: 
+  http://zx80.netai.net/grant/Multicomp/index.html#AboutTheBoard
+
 MC-2G-1024: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolstar:mc-2g-1024
 
 Multicomp-09 (05Nov2016): https://www.retrobrewcomputers.org/doku.php?id=boards:sbc:multicomp:cycloneii-c:start
