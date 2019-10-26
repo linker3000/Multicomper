@@ -81,6 +81,8 @@ With the external RAM fitted:
 Grant's 6502 Multicomp design with full external RAM, default VGA display and PS/2 keyboard: 
 
   http://zx80.netai.net/grant/Multicomp/index.html
+  
+ ![Image](zp-65021.png)
 
 MC-2G-1024: https://www.retrobrewcomputers.org/doku.php?id=builderpages:rhkoolstar:mc-2g-1024
 
