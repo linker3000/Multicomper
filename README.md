@@ -6,9 +6,9 @@ A motherboard for the EP2C5T144C8N Cyclone II dev board and 'Multicomp'-based FP
 
 The Multicomper motherboard is a simple platform for creating a UK101 functional or 'Multicomp' computer based on the design work of Grant Searle: 
 
-http://zx80.netai.net/grant/uk101FPGA/index.html
+https://searle.x10host.com/uk101/uk101.html
 
-http://zx80.netai.net/grant/Multicomp/index.html
+https://searle.x10host.com/Multicomp/index.html
 
 ![Image](zp-mcomper0.png)
 
