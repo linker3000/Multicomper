@@ -48,7 +48,7 @@ To view/modify the code and to program the dev board, you'll need to install the
 
 **5V power circuit**
 
-If you want to fit the optional 5V power circuit you need to solder a 2-pin male header to the FPGA dev board – the board has holes for this (see the pic above - look to the left of the DC power connector), but the header is not usually supplied as standard so you'll have to provide your own.
+The optional 5V regulated power circuit is there in case you need it for the prototyping area(*) If you want to fit this circuit  you need to solder a 2-pin male header to the FPGA dev board – the board has holes for this (see the pic above - look to the left of the DC power connector), but the header is not usually supplied as standard so you'll have to provide your own.
 
 The 100uF 10V smoothing capacitor C8 should be bent over and fitted flush with the PCB otherwise it will hit the bottom of the dev board above it.
 
@@ -56,7 +56,7 @@ The Cyclone II is a 3.3V device and the I/O is NOT 5V tolerant so you will need 
 
 The Multicomper’s 5V regulator is fed from the 2-pin header mentioned above. The main supply to the dev board's DC socket needs to be increased to at least 7V if a standard (non low drop-out) ‘7805’ is used on the Multicomper. During testing, the DC input voltage was raised to 12V to see if the 3.3V regulator complained - it was OK on two boards,  but your mileage may vary according to the quality of the part fitted.
 
- *You could use a 3.3V regulator for the prototype area if you wish.*
+(*)You could use a 3.3V regulator for the prototype area if you wish - or just jumper in-out where the voltage regulator should be fitted and then the voltage at the '5V' header will be whatever's being fed to the FPGA board.
 
 **Micro SD card**
 
