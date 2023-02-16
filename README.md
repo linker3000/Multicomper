@@ -74,7 +74,7 @@ If you need to modify the Multicomper to run the keyboard from the optional 5V s
 
 The following FPGA designs have been tested on the Multicomper:
 
-Grant’s original UK101 design: https://searle.x10host.com/uk101FPGA/index.html
+Grant’s original UK101 design: http://searle.x10host.com/uk101FPGA/index.html
 
 Grant's 6502 Multicomp design with full external RAM, default VGA display and PS/2 keyboard: 
 
